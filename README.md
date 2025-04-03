@@ -11,7 +11,7 @@
 ## 🛠️ Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
 - **AI Integration:** Text-to-Image API (such as Hugging Face models)
-- **Backend (if required):** Node.js / Python Flask
+
 
 ## 📌 Setup Instructions
 
@@ -19,15 +19,9 @@
 ```bash
 git clone https://github.com/your-username/RealVisions.git
 cd RealVisions
-```
 
-### 2️⃣ Install Dependencies (if applicable)
-```bash
-npm install  # For Node.js
-pip install -r requirements.txt  # For Python
-```
 
-### 3️⃣ Configure API Key
+### 2⃣ Configure API Key
 - Get an API key from Hugging Face.
 - Replace with your Hugging Face API key and model endpoint in `config.js` or `.env`:
 ```javascript
@@ -35,13 +29,9 @@ const API_KEY = "your_Hugging_Face_API_key";
 const MODEL_ENDPOINT = "your_model_endpoint";
 ```
 
-### 4️⃣ Run the Project
+### 3⃣Run the Project
 - Open `index.html` in a browser (for frontend-only version).
-- If using a backend, start the server:
-```bash
-npm start  # For Node.js
-python app.py  # For Python
-```
+
 
 ## 🎯 Usage
 - Enter educational text in the input field.
