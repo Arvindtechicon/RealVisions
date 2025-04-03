@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RealVisions - AI Image Generator</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="landing-page">
+    <h1>RealVisions</h1>
+    <p>Your Imagination, Our Reality</p>
+    <p>Transform your words into stunning visuals with AI</p>
+    
+    <div class="container">
+      <form id="text-to-image-form">
+        <textarea 
+          id="input-text" 
+          placeholder="Describe the image you want to create..." 
+          required
+        ></textarea>
+        <button type="submit">
+          <i class="fas fa-wand-magic-sparkles"></i> Generate Image
+        </button>
+      </form>
+      
+      <div class="output">
+        <div class="animation-wrapper" style="display: none;">
+          <div class="circle"></div>
+        </div>
+        <p id="loading-message" class="loading"></p>
+        <img id="generated-image" src="" alt="Generated Image" style="display: none;" />
+        <button id="download-button" style="display: none;">
+          <i class="fas fa-download"></i> Download Image
+        </button>
+      </div>
+    </div>
+
+    <footer>
+      <p>Created with ❤️ by Aravind S Gudi</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
